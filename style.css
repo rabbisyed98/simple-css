@@ -1,0 +1,143 @@
+/* ===================================================
+                Common CSS
+======================================================*/
+
+
+/* ===================================================
+                Navbar CSS
+======================================================*/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    width: 200;
+}
+
+
+a{
+    background: #ff7675;
+    padding: 10px 25px;
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover{
+    background: #00cec9;
+    color: red;
+    transition: .5s;
+}
+
+li{
+    width: 150px;
+}
+ul ul a{
+    border-radius: 2px;
+    background: #fd79a8;
+    border-bottom: 1px solid #dfe6e9;
+}
+ul ul a:hover{
+    background: #00b894;
+}
+.ddown{
+    position: relative;
+    display: inline-block;
+}
+.dcon{
+    position: absolute;
+    left: 0;
+    min-width: 200;
+    display: none;
+}
+.ddown:hover .dcon{
+    display: inline-block;
+}
+/* ===================================================
+                Contact us CSS
+======================================================*/
+.para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+span{
+    font-size: 34px;
+    font-weight: bold;
+    color: limegreen;
+
+}
+.para h2, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: limegreen;
+    text-align: center;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: limegreen;
+    text-align: center;
+}
+
+/* ===================================================
+                Contact Form CSS
+======================================================*/
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+input, select, textarea{
+    width: 50%;
+    padding: 10px 2%;
+    border: 1 px solid #ddd;
+    margin-bottom: 10px;  
+}
+
+select{
+    width: 54%;
+}
+textarea{
+    min-height: 100px;
+}
+input[type="submit"]{
+    background: aqua;
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s
+}
+input[type="submit"]:hover{
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+.search_form{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+}.search_form input{
+    width: 60%;
+    float: left;
+}
+
+.search_form input[type="submit"]{
+    width: 35%;
+    float: left; 
+    padding: 8px 1%;
+}
+
+
+
